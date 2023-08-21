@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Navbar } from "../Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
 import styles from "./MainLayout.module.css";
 import Image from "next/image";
 import { FC } from "react";

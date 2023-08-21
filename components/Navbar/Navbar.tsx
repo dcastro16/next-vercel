@@ -20,7 +20,7 @@ const menuItems = [
   },
 ];
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <nav className={styles["navbar"]}>
       {menuItems.map((page, index) => {
@@ -35,3 +35,5 @@ export const Navbar = () => {
     </nav>
   );
 };
+
+export default Navbar;

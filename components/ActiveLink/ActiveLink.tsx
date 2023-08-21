@@ -8,8 +8,8 @@ const style: CSSProperties = {
 };
 
 interface LinkProps {
-  text: string,
-  href: string
+  text: string;
+  href: string;
 }
 
 export const ActiveLink: FC<LinkProps> = ({ text, href }) => {
